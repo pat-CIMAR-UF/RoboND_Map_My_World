@@ -31,5 +31,31 @@ $ chmod +x teleop_twist_keyboard.py
 ```
 Then run it again.
 
+## Project Package install:
+```bash
+$ cd (catkin_ws)/src
+$ git clone https://github.com/pat-CIMAR-UF/RoboND_Map_My_World.git my_robot
+$ cd ..
+$ catkin_make
+```
+
+# To Run
+To launch the robot and world package:
+```bash
+$ cd (caktin_ws)
+$ source devel/setup.bash
+$ roslaunch my_robot world.launch
+```
+To launch the teleop package to control the robot: Open a new terminal:
+```bash
+$ source devel/setup.bash
+$ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
+To launch the rtabmap_ros package:
+```bash
+$ source devel/setup.bash
+$ roslaunch my_robot mapping.launch
+```
+
 
 
