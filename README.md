@@ -4,7 +4,15 @@ This the project of Udacity Robotics Software Development Nanodegree project of 
 
 **To review the rtabmap.db file, it is too big for github(271 MB), please use this OneDrive [link](https://uflorida-my.sharepoint.com/:u:/g/personal/wangyiqun_ufl_edu/EUbxcCs4OJBOrA978pFLavYBK5Rc41N_vap1-2NlUlknXw?e=80PlKr) to download it**
 
+
+
 ![result1](https://github.com/pat-CIMAR-UF/RoboND_Map_My_World/blob/master/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(29).png)
+![result2](https://github.com/pat-CIMAR-UF/RoboND_Map_My_World/blob/master/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(30).png)
+
+On the left, you have your 2D grid map in all of its updated iterations and the path of your robot. In the middle you have different images from the mapping process. Here you can scrub through images to see all of the features from your detection algorithm. These features are in yellow. Then, what is the pink, you may ask? The pink indicates where two images have features in common and this information is being used to create neighboring links and loop closures! Finally, on the right you can see the constraint view. This is where you can identify where and how the neighboring links and loop closures were created.
+
+
+
 # Installation
 
 ## rtabmap_ros package install:
