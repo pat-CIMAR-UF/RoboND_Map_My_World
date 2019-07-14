@@ -4,6 +4,7 @@ This the project of Udacity Robotics Software Development Nanodegree project of 
 
 **To review the rtabmap.db file, it is too big for github(271 MB), please use this OneDrive [link](https://uflorida-my.sharepoint.com/:u:/g/personal/wangyiqun_ufl_edu/EUbxcCs4OJBOrA978pFLavYBK5Rc41N_vap1-2NlUlknXw?e=80PlKr) to download it**
 
+![result1](https://github.com/pat-CIMAR-UF/RoboND_Map_My_World/blob/master/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(29).png)
 # Installation
 
 ## rtabmap_ros package install:
