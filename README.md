@@ -57,5 +57,11 @@ $ source devel/setup.bash
 $ roslaunch my_robot mapping.launch
 ```
 
-
-
+# To check generated .db file:
+**Download from [here](https://uflorida-my.sharepoint.com/:u:/g/personal/wangyiqun_ufl_edu/EUbxcCs4OJBOrA978pFLavYBK5Rc41N_vap1-2NlUlknXw?e=80PlKr)**
+copy the downloaded file to the under the folder of catkin_ws/src/my_robot/launch
+Then run"
+```bash
+$ cd (catkin_ws)
+$ rtabmap-databaseViewer src/my_robot/launch/rtabmap.db
+```
